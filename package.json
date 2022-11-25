@@ -1,0 +1,23 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "main": "src/test.ts",
+  "repository": "https://github.com/DhanielB/Framework.git",
+  "author": "Dhaniel Brandão <dhanielbrandao2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.0.25",
+    "cheerio": "^1.0.0-rc.12",
+    "cherio": "^1.0.0-rc.2",
+    "jsdom": "^20.0.3",
+    "loadsh": "^0.0.4",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sucrase": "^3.29.0",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec sucrase-node src/test.ts"
+  }
+}
